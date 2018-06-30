@@ -1,0 +1,195 @@
+body{
+  background: linear-gradient(44deg,#000000,#00001a);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 10s ease infinite;
+}
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+#Wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+img.Logo{
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  z-index: 20;
+  padding: 0px;
+}
+.Unity>a{
+  color: teal;
+  display: inline-block;
+  background-color: white;
+  background-position: center;
+  padding: 7px 7px 7px 7px;
+  text-decoration: none;
+}
+.text{
+  position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    top: 70px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    opacity: 0;
+  }
+  .texto{
+    position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px 0;
+      top: 70px;
+      width: 250px;
+      text-align: center;
+      color: white;
+      font-size: 1.1em;
+      opacity: 0;
+    }
+    .textf{
+      position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px 0;
+        top: 70px;
+        width: 250px;
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+        opacity: 0;
+      }
+.hexagon{
+  transform: scale(1.5);
+  position: absolute;
+}
+.one {
+    width: 200px;
+    height: 200px;
+    background: url(BlueSpace.jpg);
+        transform: translate(100px  -100px);
+}
+.one{
+    width: 500px;
+    height: 500px;
+background: url(BlueSpace.jpg);
+
+ clip-path: polygon(25% 12.5%, 5% 45%, 45% 45%);
+        transform: translate(260px, 542.5px);
+        background-position: 1200px -450px;
+        filter: grayscale(0.8);
+}
+.one:hover{
+  filter:none;
+}
+.one:hover .texto{
+  opacity: 1;
+}
+.two {
+    width: 200px;
+    height: 200px;
+    background: url(BlueSpace.jpg);
+
+  }
+.two{
+    width: 500px;
+    height: 500px;
+    background: url(BlueSpace.jpg);
+clip-path: polygon(30% 45%, 10% 12.5%, 50% 12.5%);
+    transform: translate(340px,42.5px);
+    background-position: 1110px -455px;
+    filter: grayscale(0.8);
+}
+.two:hover{
+  filter:none;
+}
+.two:hover .text{
+  opacity: 1;
+}
+
+.three {
+    width: 500px;
+    height: 500px;
+    background: url(BlueSpace.jpg);
+    background-position:
+  }
+.three{
+    width: 500px;
+    height: 500px;
+    background: url(BlueSpace.jpg);
+clip-path: polygon(25% 12.5%, 5% 45%, 45% 45%);
+    transform: translate(470px,-457.5px);
+    background-position: right;
+    background-position: 970px -455px;
+    filter: grayscale(0.8);
+}
+.three:hover{
+  filter:none;
+}
+.three:hover .texto{
+  opacity: 1;
+}
+.four {
+    width: 200px;
+    height: 200px;
+    background: url(BlueSpace.jpg);
+  }
+.four{
+    width: 500px;
+    height: 500px;
+    background: url(BlueSpace.jpg);
+    clip-path: polygon(25% 12.5%, 5% 45%, 45% 45%);
+    transform: translate(365px,-790px);
+    background-position: 1085px -1825px;
+    filter: grayscale(0.8);
+}
+.four:hover{
+  filter:none;
+}
+.four:hover .textf{
+  opacity: 1;
+}
+.five {
+    width: 200px;
+    height: 200px;
+    background: url(BlueSpace.jpg);
+  }
+.five{
+    width: 500px;
+    height: 500px;
+    background: url(BlueSpace.jpg);
+
+    clip-path: polygon(30% 45%, 10% 12.5%, 50% 12.5%);
+    transform: translate(235px,-1290px);
+    background-position: 1220px -15025px;
+    filter: grayscale(0.8);
+}
+.five:hover{
+  filter:none;
+}
+.five:hover .text{
+  opacity: 1;
+}
+.six {
+    width: 200px;
+    height: 200px;
+    background: url(BlueSpace.jpg);
+  }
+.six{
+    width: 500px;
+    height: 500px;
+    background: url(BlueSpace.jpg);
+
+    clip-path: polygon(30% 45%, 10% 12.5%, 50% 12.5%);
+    transform: translate(445px,-1790px);
+    background-position: 1000px -1824px;
+    filter: grayscale(0.8);
+}
+.six:hover{
+  filter:none;
+}
+.six:hover .text{
+  opacity: 1;
+}
